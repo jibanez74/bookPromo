@@ -1,0 +1,58 @@
+$primary-color: #3292a6;
+$overlay:rgba(50,146,166,0.8);
+
+body {
+    margin-top: 105px;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px $primary-color;
+    opacity: 0.9;
+    background: white;
+
+    .nav-item {
+        font-size: 1.5rem;
+        padding: 20px;
+        
+    }
+}
+
+#home {
+    background: url("../img/mountains.jpg");
+    min-height: 600px;
+    position: relative;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $overlay;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.info-header {
+    width:50%;
+    margin:auto;
+    border-bottom:1px #ddd solid;
+  }
+
+  #authors {
+      img {
+          margin-top: -50px;
+      }
+
+      .fa {
+          font-size: 25px;
+      }
+
+      .card:hover {
+          background: $primary-color;
+          color: white; 
+      
+          a .fa {
+              color: white;
+          }
+        }
+ }
