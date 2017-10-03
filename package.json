@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp"
   },
-  "author": "Brad Traversy",
+  "author": "J.R Ibanez Romany",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "4.0.0-beta",
